@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>in</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+  <header class="header nav-component">
+    <div class="wrapper flex">
+      <div class="logo-box header-section">
+        <a href="#"><img src="./img/logo.png" class="logo" alt="linkedin logo"></a>
+      </div>
+      <div class="search-box header-section">
+        <input type="text" placeholder="Search" class="search-input">
+        <span class="material-icons search-icon">search</span>
+      </div>
+      <nav class="nav header-section">
+        <ul>
+          <li class="hover-up"><a href="#" class="nav-link">Home</a></li>
+          <li class="hover-up"><a href="#" class="nav-link">Profile</a></li>
+          <li class="hover-up"><a href="#" class="nav-link">Connections</a></li>
+          <li class="hover-up"><a href="#" class="nav-link">Interest</a></li>
+          <li class="hover-up"><a href="#" class="nav-link premium">Try Premium</a></li>
+        </ul>
+      </nav>
+      <div class="notifications-center header-section">
+        <span class="material-icons messages hover-up">insert_comment</span>
+        <span class="material-icons notifications hover-up">notifications</span>
+        <span class="material-icons friends hover-up">person_add</span>
+      </div>
+      <div class="my-account-box header-section">
+        <img src="./img/avatar.jpg" class="avatar small" alt="profile picture">
+      </div>
+    </div>
+  </header>
+  <div class="sections-nav nav-component">
+    <ul class="wrapper flex">
+      <li><a href="#posts" class="section-link active">Posts</a></li>
+      <li><a href="#background" class="section-link">Background</a></li>
+      <li><a href="#recomendations" class="section-link">Recommendations</a></li>
+      <li><a href="#following" class="section-link">Following</a></li>
+    </ul>
+  </div>
+  <main class="main wrapper">
+    <aside class="user-overview component">
+      <div class="profile-picture">
+        <img src="./img/bill-gates-avatar.png" alt="profile picture" class="avatar big">
+      </div>
+      <h3 class="username large">Bill Gates</h3>
+      <a href="#" class="user-job link">Microsoft Founder</a>
+      <a href="#" class="user-location light link">Greater Seattle Area</a>
+      <div class="buttons">
+        <button class="follow btn plain">Follow</button>
+        <div class="connect-btn-box">
+          <button class="connect btn border">Connect</button>
+          <span class="material-icons expand-icon">expand_more</span>
+        </div>
+      </div>
+      <div class="user-datas">
+        <div class="data user-info-box">
+          <p class="data-value strong">200</p>
+          <p class="data-type light">connections</p>
+        </div>
+        <div class="data user-info-box">
+          <div class="data-value strong">1.9M</div>
+          <div class="data-type light">followers</div>
+        </div>
+      </div>
+      <div class="user-links user-info-box">
+        <div class="linkedin icon-span">
+          <span class="material-icons light">link</span>
+          <a href="#" class="linkedin-link light link">linkedin.com/in/billgates</a>
+        </div>
+        <div class="website icon-span">
+          <span class="material-icons light">language</span>
+          <a href="#" class="website-link light link">billgates.com</a>
+        </div>
+      </div>
+      <div class="export-pdf user-info-box icon-span">
+        <span class="material-icons light">publish</span>
+        <p class="export-btn light website-link link">Export page as PDF</p>
+      </div>
+    </aside>
+    <div class="sections-wrapper">
+      <section class="posts component section-part" id="posts">
+        <div class="section-header">
+          <h3 class="section-title">Posts</h3>
+          <div class="nav-buttons">
+            <span class="material-icons component-nav-btn">keyboard_arrow_left</span>
+            <span class="material-icons component-nav-btn">keyboard_arrow_right</span>
+          </div>
+        </div>
+        <div class="articles-box section-content">
+          <a href="#" class="article"><article >
+            <img src="img/article1.jpg" alt="article thumbnail" class="article-thumbnail">
+            <h4 class="article-title strong">3 Myths That Confuse Top-Managers</h4>
+            <p class="article-date light">February 19, 2016</p>
+          </article></a>
+          <a href="#" class="article"><article>
+            <img src="img/article2.jpg" alt="article thumbnail" class="article-thumbnail">
+            <h4 class="article-title strong">How much do we spend on hot drinks</h4>
+            <p class="article-date light">February 19, 2016</p>
+          </article></a>
+          <a href="#" class="article"><article>
+            <img src="img/article3.jpg" alt="article thumbnail" class="article-thumbnail">
+            <h4 class="article-title strong">Good news you might have noticed</h4>
+            <p class="article-date light">February 19, 2016</p>
+          </article></a>
+        </div>
+      </section>
+      <section class="background component section-part" id="background">
+        <div class="section-header">
+          <h3 class="section-title">Background</h3>
+        </div>
+        <div class="section-content">
+          <div class="summary-box">
+            <span class="material-icons bg-icon">assignment</span>
+            <h2 class="bg-title">Summary</h2>
+            <div class="bg-content">
+              <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati on ullamco laboris nisi ut aliquip ex ea corn mode consequat. Duffs aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="experience-box">
+            <span class="material-icons bg-icon">work</span>
+            <h2 class="bg-title">Experience</h2>
+            <div class="bg-content">
+              <div class="exp-job">
+                <div class="line"></div>
+                <p class="job-year light">2000 - PRESENT</p>
+                <a href="#"><img src="img/logo-microsoft.png" alt="microsoft logo" class="company-logo"></a>
+                <p class="job-name">Co-founder, Chairman</p>
+                <a href="#" class="job-company link">Microsoft</a>
+              </div>
+              <div class="exp-job">
+                <p class="job-year light">1992 - 1999</p>
+                <a href="#"><img src="img/logo-youtube.png" alt="youtube logo" class="company-logo"></a>
+                <p class="job-name">Senior Developer</p>
+                <a href="#" class="job-company link">Youtube</a>
+              </div>
+            </div>
+          </div>
+          <div class="education-box">
+            <span class="material-icons bg-icon">account_balance</span>
+            <h2 class="bg-title">Education</h2>
+            <div class="bg-content">
+              <div class="exp-job">
+                <div class="line"></div>
+                <p class="job-year light">1973 - 1975</p>
+                <p class="job-name">Harvard University</p>
+                <a href="#" class="job-company link">BS Computer Service</a>
+              </div>
+              <div class="exp-job">
+                <p class="job-year light">1960 - 1973</p>
+                <p class="job-name">Lakeside School, Seattle</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-box">
+            <span class="material-icons bg-icon">lightbulb_outline</span>
+            <h2 class="bg-title">Skills</h2>
+            <div class="bg-content">
+              <div class="skill">
+                <div class="skill-value">74</div>
+                <p class="skill-name">Social Media Marketing</p>
+                <div class="other-users-skill">
+                  <a href="#"><img src="img/avatar.jpg" alt="user avatar" class="avatar small"></a>
+                  <a href="#"><img src="img/avatar2.jpg" alt="user avatar" class="avatar small"></a>
+                  <a href="#"><img src="img/avatar3.jpg" alt="user avatar" class="avatar small"></a>
+                  <div class="avatar small users-left">71+</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-value">67</div>
+                <p class="skill-name">Web Development</p>
+                <div class="other-users-skill">
+                  <a href="#"><img src="img/avatar2.jpg" alt="user avatar" class="avatar small"></a>
+                  <a href="#"><img src="img/avatar3.jpg" alt="user avatar" class="avatar small"></a>
+                  <a href="#"><img src="img/avatar.jpg" alt="user avatar" class="avatar small"></a>
+                  <div class="avatar small users-left">17+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="interests-box">
+            <span class="material-icons bg-icon">star</span>
+            <h2 class="bg-title">Interests</h2>
+            <div class="bg-content">
+              <ul class="interests-list">
+                <a href="#" class="interest"><li>Wireless Industry</li></a>
+                <a href="#" class="interest"><li>Photography</li></a>
+                <a href="#" class="interest"><li>Web Design</li></a>
+                <a href="#" class="interest"><li>Technology</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recomendations component section-part" id="recomendations">
+        <div class="section-header">
+          <h3 class="section-title">Recomendations</h3>
+          <div class="nav-buttons">
+            <span class="material-icons component-nav-btn">keyboard_arrow_left</span>
+            <span class="material-icons component-nav-btn">keyboard_arrow_right</span>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="testimonials-box">
+            <div class="testimonial">
+              <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-user-profile">
+                <a href="#"><img src="img/avatar.jpg" alt="profile picture" class="avatar small"></a>
+                <a href="#" class="d-user-name link strong">Steve Jobs</a>
+                <a href="#" class="d-user-company light link">Apple</a>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-user-profile">
+                <a href="#"><img src="img/avatar2.jpg" alt="profile picture" class="avatar small"></a>
+                <a href="#" class="d-user-name link strong">Mark Zuckerberg</a>
+                <a href="#" class="d-user-company light link">Facebook</a>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-user-profile">
+                <a href="#"><img src="img/avatar3.jpg" alt="profile picture" class="avatar small"></a>
+                <a href="#" class="d-user-name link strong">Jeffrey Bezos</a>
+                <a href="#" class="d-user-company light link">Amazon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="following component section-part" id="following">
+        <div class="section-header">
+          <h3 class="section-title">Following</h3>
+        </div>
+        <div class="section-content">
+          <div class="f-companies-box">
+            <div class="f-company">
+              <a href="#"><div class="f-company-logo-ctn">
+                <img src="img/logo-microsoft.png" alt="microsoft logo" class="f-company-logo">
+              </div></a>
+              <a href="#" class="f-company-title link">Microsoft</a>
+              <div class="follow-button">
+                <span class="material-icons f-plus-icon component-nav-btn">add</span>
+                <a href="#" class="follow-btn link">Follow</a>
+              </div>
+            </div>
+            <div class="f-company">
+              <a href="#"><div class="f-company-logo-ctn">
+                <img src="img/logo-amazon.jpg" alt="amazon logo" class="amazon f-company-logo">
+              </div></a>
+              <a href="#" class="f-company-title link">Amazon</a>
+              <div class="follow-button">
+                <span class="material-icons f-plus-icon component-nav-btn">add</span>
+                <a href="#" class="follow-btn link">Follow</a>
+              </div>
+            </div>
+            <div class="f-company">
+              <a href="#"><div class="f-company-logo-ctn">
+                <img src="img/logo-microsoft.png" alt="microsoft logo" class="f-company-logo">
+              </div></a>
+              <a href="#" class="f-company-title link">Microsoft</a>
+              <div class="follow-button">
+                <span class="material-icons f-plus-icon component-nav-btn">add</span>
+                <a href="#" class="follow-btn link">Follow</a>
+              </div>
+            </div>
+            <div class="f-company">
+              <a href="#"><div class="f-company-logo-ctn">
+                <img src="img/logo-amazon.jpg" alt="amazon logo" class=" amazon f-company-logo">
+              </div></a>
+              <a href="#" class="f-company-title link">Amazon</a>
+              <div class="follow-button">
+                <span class="material-icons f-plus-icon component-nav-btn">add</span>
+                <a href="#" class="follow-btn link">Follow</a>
+              </div>
+            </div>
+          </div>
+          <button class="see-all connect btn border">See all (20)</button>
+        </div>
+      </section>
+    </div>
+    <aside class="discover">
+      <p class="discover-section also">People also viewed</p>
+      <div class="d-users">
+        <div class="d-user-profile">
+          <a href="#"><img src="img/avatar.jpg" alt="profile picture" class="avatar small"></a>
+          <a href="#" class="d-user-name link strong">Sergey Brin</a>
+          <a href="#" class="d-user-company light link">Google</a>
+        </div>
+        <div class="d-user-profile">
+          <a href="#"><img src="img/avatar2.jpg" alt="profile picture" class="avatar small"></a>
+          <a href="#" class="d-user-name link strong">Jeffrey Bezos</a>
+          <a href="#" class="d-user-company light link">Amazon</a>
+        </div>
+        <div class="d-user-profile">
+          <a href="#"><img src="img/avatar3.jpg" alt="profile picture" class="avatar small"></a>
+          <a href="#" class="d-user-name link strong">Steve Jobs</a>
+          <a href="#" class="d-user-company light link">Apple</a>
+        </div>
+      </div>
+      <p class="discover-section">More influencers</p>
+      <div class="users-gallery">
+        <span class="material-icons gallery-arrow previous-user">keyboard_arrow_left</span>
+        <span class="material-icons gallery-arrow next-user">keyboard_arrow_right</span>
+        <a href="#"><img src="img/avatar3.jpg" alt="profile picture" class="avatar big gallery-current"></a>
+        <h3 class="g-user-ctn"><a href="#" class="username large link g-user">Steve Jobs</a></h3>
+        <a href="#" class="r-user-company light link g-user">Apple</a>
+      </div>
+    </aside>
+  </main>
+  <footer class="footer">
+    <p class="site-credits">LinkedIn Corporation &#169; 2014</p>
+  </footer>
+</body>
+</html>

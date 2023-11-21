@@ -1,0 +1,58 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+input, button {
+    outline: unset;
+    border: unset;
+    background: unset;
+    font-size: 16px;
+}
+
+.material-icons {
+    user-select: none;
+}
+
+/* COLORS */
+
+:root {
+    --white: #fff;
+    --bg: #F6F8F9;
+    --primary-blue: #5EB5E6;
+    --primary-blue-hover: #4E9CE3;
+    --light-blue: #E8F4FC;
+    --light-gray: #999;
+    --dark-gray: #333;
+    --clear-gray: #eee;
+    --nav-btn-hover: #efefef;
+    --nav-btn-active: #dfdfdf;
+    --premium: #f00;
+    --messages: #2BCD71;
+    --notifications: #F1C40F;
+    --friends: #9B58B6;
+    --line: #cbcbcb;
+    --line-border: #afafaf;
+    --more-users: #ddd;
+}
+
+.username, .section-title, .section-id, .strong, .bg-icon, .bg-title {
+    color: var(--dark-gray);
+}
+
+.light {
+    color: var(--light-gray);
+}

@@ -1,0 +1,623 @@
+/* BODY */
+
+body {
+    background: var(--bg);
+}
+
+/* HEADER */
+
+.header {
+    height: 6rem;
+    justify-content: flex-start;
+    min-width: min-content;
+}
+
+.header .wrapper {
+    height: 100%;
+}
+
+.header-section {
+    border-right: 1px solid var(--clear-gray);
+    border-left: 1px solid var(--clear-gray);
+    height: 100%;
+    padding: 0 1.5rem;
+}
+
+/* Linkedin Logo */
+
+.logo-box {
+    border-left: none;
+    padding-left: unset;
+}
+
+.logo-box .logo {
+    width: 2.5rem;
+}
+
+/* Search input */
+
+.search-box {
+    position: relative;
+}
+
+.search-input {
+    height: 2.5rem;
+    width: 190px;
+    border-radius: 95px;
+    border: 2px solid #ddd;
+    padding: 0 .8rem;
+}
+
+.search-icon {
+    font-size: 1.3rem;
+    position: absolute;
+    right: 2.3rem;
+    cursor: pointer;
+    color: var(--dark-gray);
+}
+
+/* Nav */
+
+.nav-link {
+    font-size: 1.05rem;
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+.nav-link.premium {
+    color: var(--premium);
+    white-space: nowrap;
+}
+
+/* Notifications Center */
+
+.notifications-center {
+    padding: unset;
+}
+
+.notifications-center .hover-up {
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 0 1.3rem;
+}
+
+.messages {
+    color: var(--messages);
+}
+
+.notifications {
+    color: var(--notifications);
+}
+
+.friends {
+    color: var(--friends);
+}
+
+/* Profile */
+
+.my-account-box {
+    border-right: none;
+    cursor: pointer;
+    padding-right: unset;
+}
+
+/* SECTIONS NAV */
+
+.sections-nav {
+    min-width: min-content;
+}
+
+.sections-nav .wrapper {
+    justify-content: flex-start;
+}
+
+.sections-nav li {
+    padding: 1rem 0;
+}
+
+.section-link {
+    font-weight: 300;
+    font-size: .97rem;
+    padding: calc(1rem - 2px) 1.2rem;
+    margin-right: 1.5rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color .15s;
+}
+
+.section-link.active {
+    border-bottom-color: var(--primary-blue);
+}
+
+.section-link:hover {
+    border-bottom-color: var(--primary-blue);
+}
+
+/* MAIN */
+
+.main.wrapper {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+/* ASIDE USER */
+
+.user-overview {
+    font-weight: 300;
+    height: min-content;
+}
+
+.profile-picture {
+    margin-top: 1.2rem;
+}
+
+.username {
+    margin-top: .9rem;
+}
+
+.user-job {
+    margin: .3rem 0;
+}
+
+.user-job, .user-location {
+    font-size: .9rem;
+}
+
+.user-overview .link {
+    white-space: nowrap;
+}
+
+/* Buttons */
+
+.buttons {
+    padding: .8rem 1.2rem 1.5rem 1.2rem;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding: .55rem 0;
+    border-radius: 50px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn.plain {
+    color: var(--white);
+    background-color: var(--primary-blue);
+    transition: background-color .1s;
+}
+
+.btn.plain:hover {
+    background-color: var(--primary-blue-hover);
+}
+
+.connect-btn-box {
+    width: 100%;
+    position: relative;
+    margin-top: .6rem;
+}
+
+.btn.border {
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+    transition: background-color .1s;
+    padding-right: 1rem;
+}
+
+.btn.border:hover {
+    background-color: var(--light-blue);
+}
+
+.expand-icon {
+    position: absolute;
+    top: 50%;
+    right: 51px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--primary-blue);
+    pointer-events: none;
+}
+
+/* Datas */
+
+.user-datas {
+    width: 100%;
+}
+
+.data {
+    text-align: center;
+}
+
+.data:first-child {
+    border-right: 1px solid var(--clear-gray);
+}
+
+.data:last-child {
+    border-left: 1px solid var(--clear-gray);
+}
+
+.data-value {
+    font-weight: 700;
+}
+
+.data-type {
+    font-size: .9rem;
+    width: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.export-pdf {
+    border-bottom: unset;
+}
+
+/* Links */
+
+.linkedin {
+    margin-bottom: .5rem;
+}
+
+.export-btn {
+    cursor: pointer;
+}
+
+/* DISCOVER */
+
+.discover {
+    width: max-content;
+    white-space: nowrap;
+}
+
+.discover-section {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .97rem;
+    margin-bottom: .3rem;
+}
+
+.d-users {
+    margin-top: .3rem;
+    margin-bottom: 2rem;
+}
+
+.d-user-profile {
+    height: max-content;
+    padding: .8rem 0;
+}
+
+.d-user-profile .avatar {
+    float: left;
+    margin-right: .65rem;
+}
+
+.link[class*="d-user"] {
+    display: block;
+}
+
+.d-user-name {
+    margin-bottom: .35rem;
+    font-weight: 500;
+}
+
+.d-user-company {
+    font-size: .85rem;
+    width: fit-content;
+}
+
+/* More influencers */
+
+.users-gallery {
+    position: relative;
+    margin-top: 1.4rem;
+}
+
+.gallery-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-right: unset;
+}
+
+.previous-user {
+    left: 0;
+}
+
+.next-user {
+    right: 0;
+}
+
+.g-user {
+    display: block;
+}
+
+.g-user-ctn {
+    margin-top: -.2rem;
+    margin-bottom: .25rem;
+}
+
+/* POSTS */
+
+.article:nth-child(2) {
+    margin: 0 1.3rem;
+}
+
+.article, .article-thumbnail {
+    width: 100%;
+}
+
+.article:hover .article-title {
+    text-decoration: underline;
+}
+
+.article-title {
+    font-size: 1rem;
+    margin: .35rem 0;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.article-date {
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+/* BACKGROUND */
+
+/* Summary */
+
+.bg-icon {
+    float: left;
+    margin-right: .65rem;
+    margin-top: .075rem;
+}
+
+.bg-title {
+    font-weight: 400;
+    font-size: 1.35rem;
+}
+
+.summary-text {
+    font-weight: 300;
+    font-size: .98rem;
+}
+
+/* Experience, Education */
+
+.exp-job {
+    position: relative;
+    margin-left: 1rem;
+}
+
+.line {
+    position: absolute;
+    top: 2px;
+    left: -1rem;
+    width: 1px;
+    height: 95px;
+    background: var(--line);
+}
+
+.line::before, .line::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid var(--line-border);
+    background: #fff;
+}
+
+.line::before {
+    top: 0;
+}
+
+.line::after {
+    bottom: 0;
+}
+
+.job-year {
+    font-size: .78rem;
+}
+
+.job-name {
+    margin: .37rem 0;
+}
+
+.job-company {
+    display: inline-block;
+    color: var(--primary-blue);
+    margin-bottom: 1.3rem;
+}
+
+.company-logo {
+    width: 105px;
+    float: right;
+}
+
+.experience-box .bg-content {
+    margin-bottom: .2rem;
+}
+
+/* Skills */
+
+.skills-box .bg-icon {
+    font-size: 1.6rem;
+}
+
+.skills-box .bg-title {
+    margin-bottom: .1rem;
+}
+
+.skill:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.skill-value {
+    font-size: 1.05rem;
+    padding: .8rem;
+    border-radius: 50%;
+    border: 1px solid var(--dark-gray);
+}
+
+.skill-name {
+    margin-left: 1.2rem;
+    width: 100%;
+}
+
+.other-users-skill .avatar {
+    margin-left: .8rem;
+}
+
+.users-left {
+    font-size: .65rem;
+    font-weight: 700;
+    background-color: var(--clear-gray);
+    cursor: pointer;
+}
+
+/* Interests */
+
+.interests-box .bg-content {
+    margin-bottom: .5rem;
+}
+
+.interest {
+    background-color: var(--clear-gray);
+    font-weight: 300;
+    font-size: .95rem;
+    padding: .55rem;
+    margin-right: .8rem;
+    border-radius: 2px;
+}
+
+/* Gray Hover */
+
+.users-left, .interest {
+    transition: background-color .1s;
+}
+
+.users-left:hover, .interest:hover {
+    background-color: var(--more-users);
+}
+
+.users-left:active, .interest:active {
+    background-color: var(--line);
+}
+
+/* RECOMENDATIONS */
+
+.testimonials-box .d-user-profile {
+    white-space: nowrap;
+    padding-bottom: .4rem;
+}
+
+.testimonial {
+    width: 100%;
+}
+
+.testimonial:nth-child(2) {
+    margin: 0 1.3rem;
+}
+
+.testimonial-text {
+    padding: 1.4rem 1.4rem 1.4rem 1.4rem;
+    border: 1px solid var(--clear-gray);
+    font-size: 1.05rem;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-text::before,.testimonial-text::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.testimonial-text::before {
+    left: -1px;
+    bottom: -29px;
+    border-width: 29px 30px 0 0;
+    border-color: var(--clear-gray) transparent transparent transparent;
+}
+
+.testimonial-text::after {
+    left: 0;
+    bottom: -27px;
+    border-width: 28px 28px 0 0;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* FOLLOWING */
+
+.f-company {
+    width: min-content;
+    width: 22.2%;
+}
+
+.f-company-logo-ctn {
+    border: 1px solid var(--clear-gray);
+    transition: border-color .1s;
+    height: 85px;
+}
+
+.f-company-logo-ctn:hover {
+    border-color: var(--light-gray);
+}
+
+.f-company-logo {
+    width: 110px;
+}
+
+.f-company-logo.amazon {
+    width: 100px;
+}
+
+.f-company-title {
+    margin: 1.1rem 0 .4rem 0;
+    display: block;
+}
+
+.follow-button {
+    justify-content: flex-start;
+}
+
+.follow-btn {
+    color: var(--primary-blue);
+    margin-left: .2rem;
+}
+
+.f-plus-icon {
+    font-size: .85rem;
+    width: 23px;
+    height: 23px;
+    line-height: 21px;
+    padding: 0;
+}
+
+.see-all.btn.border {
+    width: 165px;
+    margin-top: 2rem;
+    margin-bottom: .2rem;
+    padding-right: unset;
+}
+
+/* FOOTER  */
+
+.footer {
+    text-align: center;
+    border-top: 1px solid #DEDEDE;
+    padding: 1.1rem 0;
+    justify-self: flex-end;
+}
+
+.site-credits {
+    color: var(--dark-gray);
+}
